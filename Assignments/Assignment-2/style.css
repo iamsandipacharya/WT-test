@@ -1,0 +1,47 @@
+body{
+    background-image:url("images/travel.jpg");
+    background-repeat: no-repeat;
+    background-size: 1550px 1300px;
+    overflow-x: hidden;
+}
+h1{
+    color:royalblue;
+    background-color: aqua;
+    font-style: italic;
+    font-weight:500;
+    -webkit-text-stroke-width: 2px;
+}
+#a1{
+    border: 5px solid;
+    width: 1000px;
+    height: 110px;
+    font-size: 22px;
+    color:rgba(255, 000, 000, 001);
+    background-color: rgb(000, 255, 255);
+}
+#s1{
+    margin-right: 53%;
+    background-color: #00ff00;
+}
+#a2{
+    border: 5px solid;
+    width: 800px;
+    height: 85x;
+    font-size: 22px;
+    color:rgba(255, 000, 000, 001);
+    background-color: rgb(000, 255, 255);
+    margin-left: 47%;
+}
+#ch{
+    margin-left: 52%;
+    background-color: #00ff00;
+}
+#crr{
+    color: hsl(0, 100%, 50%);
+    font-variant: small-caps ;
+    line-height: 4px;
+}
+#cr{
+    color:hsla(0, 100%, 50%, 0.58);
+    font: italic small-caps bold 15px/15px arial;
+}

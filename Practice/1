@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+</head>
+<body>
+    <h1>Cities</h1>
+    <a href="pkr">Click here</a>
+    <h1 id="pkr">POKHARA</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia dolorem possimus voluptatum sed aspernatur libero laboriosam blanditiis, soluta labore unde obcaecati dolores cupiditate impedit est alias exercitationem deleniti, ad hic?</p>
+    <h1>KATHMANDU</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, quaerat temporibus quisquam nam quos optio. Ex cupiditate repellat voluptate nihil, sunt consequatur excepturi ipsam amet ratione voluptatem culpa totam dicta.
+    </p>
+    <h1>Dharan</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, temporibus eveniet? Sint, vel officiis assumenda ipsa obcaecati ad ipsum laboriosam exercitationem, porro delectus expedita tenetur quos cupiditate, amet eligendi aliquid!
+    </p>
+    <h1>Chitwan</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam soluta itaque iste vel id voluptate molestiae, temporibus explicabo hic totam ratione nobis nulla. Perspiciatis praesentium rerum exercitationem eos nisi dicta.</p>
+    <div><a href="www.google.com"></a></div>
+    </html>
