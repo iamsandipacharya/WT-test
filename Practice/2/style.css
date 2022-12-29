@@ -1,0 +1,67 @@
+/* Use fonts and colors to create a cohesive design */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #00b8d4;
+}
+
+a:hover {
+  color: #0052cc;
+}
+
+/* Use layout techniques to create a responsive design */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+/* Use transitions and animations to add visual effects */
+nav li a {
+  transition: color 0.2s;
+}
+
+nav li a:hover {
+  color: #fff;
+}
+
+/* Use responsive design techniques */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    margin: 10px 0;
+  }
+}
+
+/* Use CSS3 features like gradients, shadows, and rounded corners */
+header {
+  background-image: linear-gradient(to right, #333, #777);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.profile-picture {
+  border-radius: 50%;
+}

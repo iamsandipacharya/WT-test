@@ -7,3 +7,10 @@
 # TEXT FORMATTING (COLOR, LINE HEIGHT, FONT, FONT-WEIGHT, UNDERLINE, STROKE, ITALLIC)
 # BACKGROUND (BACKGROUND COLOR, BACKGROUND IMAGES, BACKGROUND SIZE, BACKGROUND POSITION)
 
+# Assignment-2
+## Buttons, Border, Color and Pseudo class.
+# Create buttons as per given figure.
+# Create borders as per given figure.
+
+# Assingnment-3
+##
