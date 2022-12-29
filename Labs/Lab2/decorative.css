@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    position: relative;
+    width: 85.7%;
+    max-width: 1400px;
+    height: 30vh;
+    box-shadow: 0px 0px 10px -1px rgba(89, 77, 77, 0.7);
+    top: 74px;
+    left: 80px;
+    border-style: none;
+    border-radius: 10px;
+    padding: 18px 25px;
+    z-index: 1;
+}
+
+.box p {
+    font-size: 16px;
+    font-weight: 550;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 0;
+}
+
+.one {
+    top: 58px;
+    left: 5px;
+}
+
+.two {
+    top: 30px;
+    left: 50px;
+}
+
+.three {
+    top: 35%;
+    left: 85%;
+}
+
+.four {
+    top: 24%;
+    left: 89%;
+}
