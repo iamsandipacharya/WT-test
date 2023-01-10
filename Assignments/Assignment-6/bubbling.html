@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body {
+        height: 100vh;
+        overflow: hidden;
+    }
+    
+    body::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+    }
+    
+    body * {
+        z-index: 10;
+    }
+    
+    div {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    h2 {
+        color: #ccc
+    }
+    
+    p {
+        cursor: pointer;
+    }
+    
+    #grandparent {
+        background-color: rgb(46, 75, 46);
+        width: 250px;
+        height: 250px;
+    }
+    
+    #parent {
+        background-color: rgb(108, 125, 62);
+        width: 150px;
+        height: 150px;
+    }
+    
+    #child {
+        background-color: rgb(63, 94, 189);
+        width: 100px;
+        height: 50px;
+    }
+</style>
+</head>
+
+<body>
+<div>
+    <h2>Examples of Bubbling in JavaScript</h2>
+    <h2>Everything is printed in the browser console</h2>
+    <div id="grandparent">
+        <p>GrandParent</p>
+        <div id="parent">
+            <p>Parent</p>
+            <div id="child">
+                <p>Child</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    const grandParent = document.getElementById("grandparent");
+    const parent = document.getElementById("parent");
+    const child = document.getElementById("child");
+    grandParent.addEventListener("click", function() {
+        console.log("GrandParent");
+    });
+    parent.addEventListener("click", function() {
+        console.log("Parent");
+    });
+    child.addEventListener("click", function() {
+        console.log("Child");
+    });
+</script>
+</body>
+</html>
